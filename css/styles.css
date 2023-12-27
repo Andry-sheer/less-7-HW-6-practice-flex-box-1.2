@@ -566,10 +566,11 @@ float: left;
   color: #fff;
 }
 .footer {
-  padding: 20px 0;
+  padding: 30px 0;
   background: #000;
   color: #fff;
   text-align: center;
+  font-size: 20px;
 }
 
 .menu > li a {
@@ -609,11 +610,13 @@ float: left;
 .logo {
   text-transform: uppercase;
   color: #fff;
+  order: 2;
 }
 
 .menu {
   display: flex;
   gap: 20px;
+  order: 0;
 }
 
 .menu > li {
@@ -637,7 +640,7 @@ float: left;
   background: rgb(101, 21, 126);
   border-radius: 10px;
   color: #fff;
-  order: 0;
+  order: -1;
 }
 
 .login:hover {
@@ -811,4 +814,78 @@ align-self: flex-end;*/
 }
 .Flex-box3 > div + div > div + div > div > div {
   height: 100px;
+}
+/************************************************/
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+.cards{
+
+}
+
+.cards-container{
+display: flex;
+flex-wrap: wrap;
+margin: 0 -15px;
+row-gap: 30px;
+}
+
+.card {
+flex: 0 1 33.333%;
+padding: 0 15px;
+}
+
+.card > div {
+background: orange;
+border: 1px solid #000;
+border-radius: 8px;
+padding: 10px;
+height: 100%;
+}
+
+.card-img{
+display: block;
+height: 120px;
+margin: 0 0 15px;
+}
+
+.card-img img{
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  }
+
+.card-title{
+color: rgb(25, 0, 255);
+text-transform: uppercase;
+font-size: 26px;
+font-weight: 900;
+margin: 0 0 20px;
+}
+
+.card-desc{
+margin: 0 0 10px;
+}
+
+.card-link{
+
+}
+
+.footer2 {
+  padding: 30px 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
 }
