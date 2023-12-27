@@ -1,0 +1,814 @@
+@import url("reset.css");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.back {
+  color: blue;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------block-hidden------------------------------
+.block-hidden {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.block-hidden::before {
+  content: "test ";
+}
+
+.block-hidden::after {
+  content: " ❄️";
+}
+
+.float-container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+--------------------------------------------*/
+
+/* ------cont 2---------------------------------------
+.container-2 {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+------------------------------------------------*/
+
+/*-------------------------------------------------------
+.centr-pad, .block {
+  padding: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 500;
+}
+-----------------------------------------------------*/
+
+/*-----BACKGROUNDS----------------------------------------------
+.bgIN1 {
+  background: rgb(144, 161, 143);
+}
+
+
+.bgIN2 {
+  background: rgb(122, 113, 129);
+}
+
+.bgBF {
+  background: rgb(113, 128, 118);
+}
+--------------------------------------------------------------*/
+
+/*
+first-child
+nth-child(x)
+last-child
+active
+hover
+*/
+
+/*--------inLine-Block----------------------------------
+.blox22{
+  margin: 0;
+  text-align: center;
+}
+
+.first {
+  font-size: 0;
+  
+}
+.first div {
+  font-size: 30px;
+  outline: 2px solid red;
+}
+.first > div {
+  width: 400px;
+  height: 400px;
+  background: blue;
+  display: inline-block;
+  
+}
+.first img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.second {
+  font-size: 0;
+  background: yellow;
+}
+.second div {
+  outline: 2px solid red;
+  font-size: 30px;
+  
+}
+
+.second > div {
+  width: 800px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.second > div > div {
+height: 400px;
+}
+.second > div + div {
+  width: 400px;
+}
+.second > div + div > div {
+  height: 266px;
+  vertical-align: text-top;
+}
+--------------------------------------*/
+
+/*----CARDS---------------------------------------------------------
+.cards-container {
+  font-size: 0;
+}
+
+.cards {
+  background: rgb(119, 228, 228);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cards h2 {
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  padding: 10px;
+  border-right: 1px solid violet;
+  border-bottom: 1px solid violet;
+}
+
+.card-img {
+  height: 200px;
+  display: block;
+  margin: 0 0 15px;
+  
+
+}
+
+.card-container {
+  margin: 0 0 15px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.card-desc {
+  margin: 0 0 15px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.card-link {
+  text-decoration: underline;
+}
+----------------------------------------------------------------*/
+
+/*----------- CARDS FLOAT---------------------------------------------
+.container3 {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.cards-container2 {
+margin: 0 -15px;
+padding-left: 7%;
+padding-right: 7%;
+}
+
+.cards2 {
+  background: rgb(119, 228, 228);
+}
+
+.cards2 h2 {
+  font-size: 34px;
+  font-weight: 900;
+  margin: 0 0 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card2 {
+  float: left;
+  width: 33.333%;
+  padding: 10px;
+  vertical-align: top;
+  padding: 15px;
+}
+
+.card2 > div {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card2:nth-child(1)> div{
+  background: orange;
+}
+
+.card2:nth-child(1) > div:hover{
+  background: blueviolet;
+}
+
+.card2:nth-child(1) > div:hover .card-title2 a {
+  color: white;
+}
+
+.card2 div:hover{
+  box-shadow: 0 0 10px black;
+}
+
+.card-img2 {
+  height: 120px;
+  display: block;
+  margin: 0 0 15px;
+}
+
+.card-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-title2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.card-title2 > a {
+  color: black;
+}
+
+.card-desc2 {
+  margin: 0 0 15px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.card-link2 {
+  text-decoration: underline;
+}
+-----------------------------------------------------*/
+
+/*---------------------------------------------------------
+.ttt {
+    background: red;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.ttt2 {
+    background: orange;
+    height: 60px;
+    margin: -40px;
+}
+------------------------------------*/
+/*floAT*/
+/*
+.float-container {
+  width: 1200px;
+  margin: 0;
+  padding: 40px 0;
+  background: aqua;
+}
+
+.float-child {
+  outline: 2px solid black;
+  width: 300px;
+  float: left;
+}
+
+
+.float-child:nth-child(3){
+background: gold;
+}
+
+.float-child:nth-child(5){
+    background: hotpink;
+}
+
+.menu > li:first-child a {
+color: red;
+}
+
+.menu > li:first-child{
+    margin-left: 0;
+}
+
+.float-child:nth-child(even){ 2 4 6 ....
+    background: red;
+}
+
+.float-child:nth-child(odd){ 1 3 5 7....
+    background: red;
+}
+
+.float-child:nth-child(3n){
+    background: red;
+}
+.float-child:nth-child(3n+1){
+    background: red;
+}
+*/
+/*---Float CHILD---------------------------------------
+.float-child:nth-child(even) {
+  background: blue;
+}
+
+.clr {
+  clear: both;
+}
+.float-img {
+  font-size: 25px;
+  background: rgb(82, 97, 182);
+}
+.float-img img {
+  float: left;
+  margin-right: 10px;
+}
+
+.float-1 {
+  background: aqua;
+}
+.float-1 > div {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid black;
+  float: left;
+}
+.float-1-child > div {
+  height: 200px;
+  outline: 2px solid rgb(0, 0, 0);
+}
+.float-1-child > div:last-child {
+  height: auto;
+}
+.float-1-child > div > div {
+  float: right;
+  width: 200px;
+  outline: 2px solid rgb(0, 0, 0);
+  background: gold;
+}
+-----------------------------------------------------------*/
+
+/*--------inLine-Block 2----------------------------------
+.box {
+  font-size: 0;
+  background: aqua;
+}
+
+.box > div {
+  font-size: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  outline: 2px solid black;
+}
+
+.box2 {
+  font-size: 0;
+  background: yellowgreen;
+}
+
+.box2 div {
+  outline: 2px solid black;
+}
+
+.box2 > div {
+  display: inline-block;
+  width: 800px;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.box2 > div > div {
+  height: 200px;
+}
+
+.box2 > div + div {
+  width: 400px;
+}
+
+.box2 > div + div > div {
+  height: 133px;
+}
+
+.box3 {
+  font-size: 0;
+  
+}
+
+.box3 div {
+  outline: 2px solid black;
+  font-size: 20px;
+  background: orange;
+ 
+ 
+}
+
+.box3 > div {
+ display: inline-block;
+  width: 400px;
+  font-size: 20px;
+vertical-align: top;
+}
+
+.box3 > div > div {
+  height: 400px;
+
+}
+
+.box3 > div + div {
+  width: 800px;
+  
+}
+
+.box3 > div + div > div {
+  height: 200px;
+    
+}
+
+.box3 > div + div > div > div{
+  height: 200px;
+
+}
+.box3 > div + div + div > div{
+  width: 400px;
+
+}
+
+.box3 > div + div > div + div > div{
+  width: 400px;
+  float: left;
+}
+.box3 > div + div > div + div > div > div {
+  height: 100px;
+}
+-------------------------------------------------*/
+
+/*------------------- box-Float --------------------------------------
+.box-float div {
+  outline: 2px solid #000;
+}
+
+.box-first > div {
+  background: teal;
+  width: 400px;
+  height: 400px;
+  float:left;
+}
+
+.box-second > div {
+  width: 800px;
+  background: orange;
+  float: left;
+}
+.box-second > div > div {
+  height: 200px;
+}
+
+.box-second > div + div {
+  width: 400px;
+  
+}
+
+.box-second > div + div > div {
+  height: 133.333px;
+}
+
+.box-third div {
+  background: rgb(111, 18, 119);
+  
+}
+
+.box-third > div{
+  width: 400px;
+  float: left;
+  }
+
+.box-third > div > div {
+height: 400px;
+}
+.box-third > .block9 {
+clear: left;
+}
+
+.box-third > div + div {
+  width: 800px;
+  
+}
+
+.box-third > div + div > div {
+  height: 200px;
+    
+}
+
+.box-third > div + div > div > div{
+  height: 200px;
+float: left;
+}
+.box-third > div + div + div > div{
+  width: 400px;
+
+}
+
+.box-third > div + div > div + div > div{
+  width: 400px;
+
+}
+.box-third > div + div > div + div > div > div {
+  height: 100px;
+}
+---------------------------------------------------------*/
+
+/*---------------- logo menu li header ---------------------------*/
+.header {
+  background: #000;
+  padding: 20px 0;
+  color: #fff;
+}
+.footer {
+  padding: 20px 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.menu > li a {
+  color: #fff;
+}
+/* 10 + 1 + 1 = 12 */
+
+.menu > li a:hover {
+  color: orange;
+}
+/* 10 + 1 + 1 + 10 = 22 */
+.menu > li a:active {
+  color: rgb(25, 0, 255);
+}
+
+.menu > li a.active {
+  color: brown;
+}
+
+/*
+.menu > li:first-child {
+  margin-left: 0;
+}
+*/
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.login,
+.menu {
+}
+
+.logo {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu > li {
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu > li:hover {
+  border-color: red;
+}
+
+/*
+.menu > li:last-child a{
+    color: red;
+}
+*/
+
+.login {
+  padding: 10px;
+  background: rgb(101, 21, 126);
+  border-radius: 10px;
+  color: #fff;
+  order: 0;
+}
+
+.login:hover {
+  background: #fff;
+  color: #000;
+}
+
+.container-in,
+.tab-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  background: rgb(23, 109, 23);
+  font-size: 0;
+}
+
+.tab-container {
+  font-size: 20px;
+  background: aqua;
+}
+
+.tab-container > div {
+  display: table-cell;
+  width: 300px;
+  outline: 2px solid red;
+}
+
+.container-in > div {
+  background: yellow;
+  outline: 2px solid red;
+  width: 300px;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+/*------------FLEX----------------------*/
+.flex-container {
+  margin: 60px;
+  width: 600px;
+  border: 2px solid purple;
+  padding: 4px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  /*  flex-wrap: wrap; 
+  
+align-items: center;*/
+  /*gap: 30px;*/
+
+  /* flex-flow: ---> flex-direction / flex-wrap;
+   flex-flow: ---> row-reverse wrap */
+}
+
+.flex-container > div {
+  padding: 12px;
+  background: #665c5c;
+  border: 2px solid #ccc;
+}
+
+.flex-container > div:first-child {
+  margin: 0 0 auto;
+  /* order: 0; 
+flex-grow: 1;
+flex-shrink: 1;*/
+  /*
+max-width: 300px;
+flex-basis: 200px;
+width: 100%; 
+   
+align-self: flex-end;*/
+
+  /* flex: 0 1 350px; ----> flex-grow: 0; flex-shrink: 1; flex-basis: auto;
+  flex: 1; ---> flex-grow: 1; flex-shrink: 0; flex-basis: auto;
+ */
+}
+
+.flex-container > div:nth-child(2) {
+  /* order: 1;  */ /* max-width: 800px; */ /*min-width: 600px;*/
+  /*align-self: stretch;*/
+}
+
+.flex-container > div:last-child {
+  /* order: 0; */
+}
+
+/*----------FLEX BLOCKS----------------------*/
+.bgFlexBOX {
+  background: rgba(82, 91, 139, 0.829);
+}
+
+.centr-flex {
+  padding: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.Flex-blocks {
+  width: 1200px;
+  outline: 2px solid black;
+}
+
+.Flex-box1 {
+  display: flex;
+  font-size: 25px;
+  background: #976060;
+}
+.Flex-box1 > div {
+  width: 400px;
+  height: 400px;
+  outline: 2px solid rgb(0, 0, 0);
+}
+
+.Flex-box2 {
+  display: flex;
+  font-size: 25px;
+}
+.Flex-box2 div {
+  outline: 2px solid rgb(0, 0, 0);
+}
+.Flex-box2 > div {
+  width: 800px;
+  background: #624dca;
+}
+.Flex-box2 > div > div {
+  height: 200px;
+  display: flex;
+}
+.Flex-box2 > div + div {
+  width: 400px;
+  background: #407e2d;
+}
+.Flex-box2 > div + div > div {
+  width: 400px;
+  height: 133px;
+}
+
+.Flex-box3 {
+  display: flex;
+  font-size: 25px;
+  background: #c8ff00;
+}
+.Flex-box3 div {
+  outline: 2px solid rgb(0, 0, 0);
+}
+.Flex-box3 > div {
+  width: 400px;
+}
+.Flex-box3 > div > div {
+  height: 400px;
+}
+.Flex-box3 > div + div {
+  width: 800px;
+  background: #00ffd5;
+}
+.Flex-box3 > div + div > div {
+  height: 200px;
+}
+.Flex-box3 > div + div > div > div {
+  height: 200px;
+}
+.Flex-box3 > div + div + div > div {
+  width: 400px;
+}
+
+.Flex-box3 > div + div > div + div > div {
+  width: 400px;
+  float: left;
+}
+.Flex-box3 > div + div > div + div > div > div {
+  height: 100px;
+}
